@@ -67,7 +67,7 @@ jupyter lab works/project2.ipynb
 # 亚马逊销售数据集 SQL 分析项目
 
 ## 项目简介
-本项目基于亚马逊印度站（amazon.in）电子产品销售数据，通过 SQL 进行数据清洗、建模与分析，包含数据库创建、表结构设计、数据导入及多维分析查询。
+本项目基于亚马逊印度站（amazon.in）电子产品销售数据，通过 Python 与 SQL 进行数据清洗、建模与分析，包含数据库创建、表结构设计、数据导入及多维分析查询。
 
 ## 数据库设计
 采用关系型数据库设计，共 4 张核心表，通过外键关联：
@@ -92,7 +92,7 @@ jupyter lab works/project2.ipynb
 - **高评价高销量产品**：筛选评分 ≥4.0 且评论数 ≥1000 的产品，综合排序推荐。
 
 ## 数据说明
-- 数据来源：亚马逊印度站公开销售数据（amazon.in）
+- 数据来源：亚马逊印度站公开销售数据（amazon.in）https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
 - 关键字段：产品 ID、名称、分类、折扣价、原价、评分、评论数、用户信息等
 - 数据清洗：处理 `product_id` 重复、价格字段类型转换、评论多值拆分等
 
@@ -101,5 +101,6 @@ jupyter lab works/project2.ipynb
 - 数据仅用于学习研究，禁止商用
 
 > 项目文件：  
-> - `SQLQuery1.sql`：数据库创建与数据导入  
-> - `SQLQuery2.sql`：数据分析查询
+> - `Amazon_Creat_table.sql`：数据库创建与数据导入  
+> - `Amazon_query.sql`：数据分析查询
+> - `Amazon_clean_copy`: 数据清洗
