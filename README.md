@@ -96,10 +96,6 @@ jupyter lab works/project2.ipynb
 - 关键字段：产品 ID、名称、分类、折扣价、原价、评分、评论数、用户信息等
 - 数据清洗：处理 `product_id` 重复、价格字段类型转换、评论多值拆分等
 
-## 贡献与许可
-- 欢迎提交 Issue 或 PR 优化查询逻辑
-- 数据仅用于学习研究，禁止商用
-
 > 项目文件：  
 > - `Amazon_Creat_table.sql`：数据库创建与数据导入  
 > - `Amazon_query.sql`：数据分析查询
